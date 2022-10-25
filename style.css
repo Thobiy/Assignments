@@ -1,0 +1,164 @@
+html{
+  height: 100%;
+  width: 100%;
+}
+body{
+  position: relative;
+  min-height: 180vh;
+  margin:0;
+  font-size: 15px;
+  font-family: sans-sherif;
+  background-color: ;
+  background-color:black ;
+  background-image: url("image/img4.jpg");
+ 
+  color: white;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .simg {
+    height: 300px;
+    width: 700px;
+  }
+
+ 
+  
+  
+  
+  
+  header{
+  background-color: white;
+  position: fixed;
+  left: 10px;
+  right: 10px ;
+  top: 0;
+  margin-bottom: 5px;
+  margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  box-shadow: 0 0 20px 0 rgb(93, 93, 227);
+  padding: 10px;
+  }
+  
+  header * {
+  display: inline;
+  }
+  
+  header li {
+  margin: 15px;
+  }
+  
+  header li a {
+  color: black;
+  font-size: 17px;
+  text-decoration: none; 
+  }
+  
+  footer {
+  position: absolute;
+  top:auto;
+  bottom:0;
+  height: 70px;
+  width: 100%;
+  padding: 10px 10px 0px 10px;
+  background-color: grey;
+  text-decoration: none; 
+  text-align: center;
+  }
+  
+  main{
+    display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1000px;
+  background-color: black;
+  }
+ 
+  
+  
+  
+ 
+  
+  
+  #cont{background-color: rgb(80, 134, 195);
+  color: white;
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 15% ;
+  border: none;
+  cursor: pointer;
+  margin: 10px 5%;
+  }
+  
+  .foot{
+  position: relative;
+  top:auto;
+  bottom:75%;
+    margin: auto 40%;
+    padding: 5px;
+    margin-bottom: 10px;
+    }
+  
+  
+  
+  
+  #submit{background-color: chocolate;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin: 15px 0;
+  cursor: pointer;
+  width: 90%;
+  }
+  
+ 
+  ection{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .projects_list{
+  margin-bottom: 50px;
+  }
+  .menu{
+    display: flex;
+    margin-top: 5rem;
+  }
+  .about, .project, #project_list{
+    margin:1.5rem;
+  }
+   .first_content{
+    margin:auto 0;
+    }
+
+    .fimg{
+      height:300 px;
+      max-width: 300px; 
+      
+    }
+    
+  h1, h2, h3{
+    font-size: o.5rem;
+    text-align: left;
+    justify-content: center;
+    
+  }
+  p, span{
+    font-size: 1.2rem;
+  }
+  .technology_used, .project_details{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 0.6rem;
+    
+  }
